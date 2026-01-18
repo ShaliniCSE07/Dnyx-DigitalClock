@@ -10,8 +10,7 @@ function Clock() {
 
   const hours = String(time.getHours()).padStart(2, "0");
   const minutes = String(time.getMinutes()).padStart(2, "0");
-  const seconds = String(time.getSeconds()).padStart(2, "0");
-
+  
   return (
     <div className="flex flex-col items-center bg-white/20 backdrop-blur-md rounded-xl px-16 py-12 shadow-2xl scale-125">
 
@@ -25,8 +24,6 @@ function Clock() {
         <TimeBox value={hours} label="Hours" />
         <span className="text-white text-5xl md:text-6xl font-bold">:</span>
         <TimeBox value={minutes} label="Minutes" />
-        <span className="text-white text-5xl md:text-6xl font-bold">:</span>
-        <TimeBox value={seconds} label="Seconds" />
       </div>
     </div>
   );
