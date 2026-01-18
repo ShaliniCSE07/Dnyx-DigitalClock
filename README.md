@@ -1,4 +1,4 @@
-# Dnyx Digital Clock 
+# Digital Clock 
 
 A simple and responsive Digital Clock built using React.js and Tailwind CSS.  
 It displays the current time and updates every second in real-time.
@@ -17,8 +17,13 @@ It displays the current time and updates every second in real-time.
 ```bash
 npm install
 npm run dev
+```
 
 ## Live Demo
+https://dnyx-digital-clock-sigma.vercel.app/
 
-## Github Repository
+
+## GitHub Repository
+https://github.com/ShaliniCSE07/Dnyx-DigitalClock.git
+
 
